@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './components/Counter'
+import Todo from './components/Todo'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <h1>Reduce Tutorial</h1>
       <div className="card">
         <Counter />
+        <Todo />
       </div>
     </>
   )
